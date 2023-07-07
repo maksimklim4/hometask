@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lesson3 {
+public class Task1 {
 
     public static void main(String[] args) {
         //поры года по номеру switch case + scanner
