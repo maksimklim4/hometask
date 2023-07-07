@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Task7 {
-//А программа суммирует все числа от 1 до
-//введенного пользователем числа.
+
     public static void main(String[] args) {
 
         Scanner userInput = new Scanner(System.in);
