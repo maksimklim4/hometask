@@ -4,9 +4,9 @@ public class Task6 {
         for (int i = 5; i>0 ; i-- ){
 
             System.out.println(i);
-
         }
-        System.out.println("END");
+System.out.println("END");
     }
+
 }
 

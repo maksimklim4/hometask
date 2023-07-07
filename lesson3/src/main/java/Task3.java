@@ -11,11 +11,8 @@ public class Task3 {
         if (number % 2 == 0) {
             System.out.println("четное");
         }else{
-                System.out.println("не четное");
+                System.out.println("нечетное");
 
         }
-
-
-
     }
 }
