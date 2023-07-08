@@ -25,8 +25,6 @@ if (w == 0){
     System.out.println("wrong");
     return;
 }
-
-
         int[] secondArray = new int[arr.length-w];
 // на w вхождений будет меньше новый массив
 
