@@ -10,8 +10,7 @@ public class Task2 {
 
         double[] arr = new double[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = Math.random();
-        }
+            arr[i] = Math.random();}
 
         System.out.println(Arrays.toString(arr));
 
@@ -22,10 +21,15 @@ public class Task2 {
         for (int i = 0; i < n; i++) {
             if (arr[i] > max) {
                 max = arr[i];}
-            if (arr[i] < max) {
-                max = arr[i];}
+            if (arr[i] < min) {
+                min = arr[i];}
+            allsum = allsum + arr[i];
+        }
+            double medium = allsum / n;
 
-allsum = allsum +
-    }
+            System.out.println("max " +  max);
+            System.out.println("min "  +  min);
+            System.out.println("srednee " +  medium);
+        }
 }
 
