@@ -4,7 +4,7 @@ public class Task3 {
 
     public static void main(String[] args) {
 
-        int[] arr1 = new int[]{10, 4, 6, 45, 1};
+        int[] arr1 = new int[]{10, -4, 6, 45, 1};
 
         int[] arr2 = new int[]{8, 5, 90, 23, 65};
 

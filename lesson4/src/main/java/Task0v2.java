@@ -14,10 +14,12 @@ public class Task0v2 {
             if (el == n) {
                 System.out.println("found");
             }
-
             if (el != n) {
                 System.out.println("not found");
+
             }
+
+
 
         }
     }

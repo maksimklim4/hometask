@@ -12,38 +12,49 @@ public class Task1v2 {
         int n = userInput.nextInt();
 
 // w - вхождения
-int w = 0;
+        int w = 0;
 
-for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             int elem = arr[i];
             if (elem == n) {
                 w = w + 1;
                 System.out.println("yes");
             }
         }
-if (w == 0){
-    System.out.println("wrong");
-    return;
-}
-        int[] secondArray = new int[arr.length-w];
+        if (w == 0) {
+            System.out.println("wrong");
+            return;
+        }
+
+        if (w > 0) {
+            int[] secondArray = new int[arr.length - w];
 // на w вхождений будет меньше новый массив
 
-        // x индекс числа в масссиве
-        int x =0;
+            //цикл копирования
 
-       for (int i = 0; i < arr.length; i++) {
-           int elem = arr[i];
-          if (elem != n) {
-                secondArray[x] = arr[i];
-                x++;
+            for (int i = 0; i < secondArray.length; i++){
+                int elem = arr[i];
+                secondArray[i] = arr[i] ;
+
             }
+
+
+
+            System.out.println(Arrays.toString(secondArray));
         }
+    }
+}
+
+
+
+
+
+
+
 
 
  //       System.arraycopy(arr, 0, secondArray, 0, arr.length);
 
 
-        System.out.println(Arrays.toString(secondArray));
-    }
-    }
+
 

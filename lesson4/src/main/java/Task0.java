@@ -16,16 +16,17 @@ public class Task0 {
         for (int i = 0; i < arr.length; i++) {
             int elem = arr[i];
 
-            if (elem == n) {
-                System.out.println("found");
-                break;
-            }
 
             if (elem != n) {
                 System.out.println("not found");
-                break;
-            }
 
             }
+
+            if (elem == n) {
+                System.out.println("found");
+
+            }
+
         }
     }
+}
