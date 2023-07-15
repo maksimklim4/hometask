@@ -5,13 +5,16 @@ public class Mainapp {
     public static void main(String[] args) {
 
        Position director = new Director();
-       System.out.println(director.myPosition());
+       String directorposition = director.myPosition();
+       System.out.println(directorposition);
 
        Position accountant = new Accountant();
-       System.out.println(accountant.myPosition());
+       String accountantposition = accountant.myPosition();
+       System.out.println(accountantposition);
 
         Position worker = new Worker();
-        System.out.println(worker.myPosition());
+        String workerposition = worker.myPosition();
+        System.out.println(workerposition);
 
     }
 }
