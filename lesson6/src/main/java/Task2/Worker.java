@@ -1,14 +1,8 @@
 package Task2;
 
-public class Worker {
+public class Worker implements Position {
 
-    private String worker;
-
-    public String getWorker() {
-        return worker;
-    }
-
-    public void setWorker(String worker) {
-        this.worker = worker;
+    public String myPosition(){
+        return "Рабочий";
     }
 }

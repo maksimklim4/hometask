@@ -1,14 +1,8 @@
 package Task2;
 
-public class Accountant {
+public class Accountant implements Position {
 
-    private String accountant;
-
-    public String getAccountant() {
-        return accountant;
-    }
-
-    public void setAccountant(String accountant) {
-        this.accountant = accountant;
+    public String myPosition(){
+        return "Бухгалтер";
     }
 }
