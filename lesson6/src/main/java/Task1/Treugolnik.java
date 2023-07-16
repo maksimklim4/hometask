@@ -13,7 +13,6 @@ public class Treugolnik extends Figura{
         this.side3 = side3;
     }
 
-
     double perimetr(){
         return (side1 + side2 + side3);
     }

@@ -1,13 +1,10 @@
 package Task1;
 
-public class Figura {
+public abstract class Figura {
 
     double area;
 
     double perimetr;
 
 
-    public double getPerimetr() {
-        return perimetr;
-    }
 }
