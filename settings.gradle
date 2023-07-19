@@ -2,4 +2,4 @@ rootProject.name = 'hometask'
 include 'lesson1'
 include 'lesson3'
 include 'lesson5'
-
+include 'lesson6'
