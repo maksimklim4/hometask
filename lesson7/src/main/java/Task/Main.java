@@ -1,12 +1,12 @@
+package Task;
+
 public class Main {
     public static void main(String[] args) {
         Phone phone1 = new Phone("123456", "iphone", 155);
         Phone phone2 = new Phone("654321", "xiaomi", 170);
         Phone phone3 = new Phone("789012", "samsung", 130);
-
 //Вызвать из конструктора с тремя параметрами конструктор с двумя.
         Phone phone4 = new Phone("55667788", "motorola");
-
         phone1.info();
         phone2.info();
         phone3.info();
@@ -24,3 +24,4 @@ public class Main {
         phone3.sendMessage("700-700-700");
     }
 }
+

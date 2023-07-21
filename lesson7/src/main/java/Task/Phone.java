@@ -1,3 +1,5 @@
+package Task;
+
 import java.util.Arrays;
 
 public class Phone {
@@ -13,23 +15,23 @@ public class Phone {
     }
     public void info(){
         System.out.println("номер телефона: " + number + " модель телефона: " + model + " вес: " + weight);
-}
+    }
     public void receiveCall(String name){
         System.out.println("Звонит " + name);
-}
+    }
     public void getNumber(){
         System.out.println(number);
-}
-//конструктор, который принимает на вход два параметра для
+    }
+    //конструктор, который принимает на вход два параметра для
 //инициализации переменных класса - number, model
-public Phone(String number, String model){
+    public Phone(String number, String model){
         this.number=number;
         this.model=model;
-}
-//конструктор без параметров
+    }
+    //конструктор без параметров
     public Phone (){
     }
-//перегруженный метод receiveCall
+    //перегруженный метод receiveCall
     public void receiveCall(String nameCaller, String numberCaller){
         System.out.println("Звонит: " + nameCaller + " " + numberCaller);
     }
@@ -37,8 +39,8 @@ public Phone(String number, String model){
     // метод принимает на вход номера телефонов, которым будет отправлено
     //сообщение
     //phoneNumber сама Java предложила
-   public void sendMessage(String ... phoneNumbers){
-       for (String phoneNumber : phoneNumbers);
-       System.out.println("отправить сообщение " + Arrays.toString(phoneNumbers));
-   }
+    public void sendMessage(String ... phoneNumbers){
+        for (String phoneNumber : phoneNumbers);
+        System.out.println("отправить сообщение " + Arrays.toString(phoneNumbers));
+    }
 }
