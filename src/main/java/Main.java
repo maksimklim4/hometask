@@ -19,6 +19,8 @@ public class Main {
         phone1.receiveCall("Max", "123456");
         phone2.receiveCall("Robert", "654321");
         phone3.receiveCall("Jura", "789012");
-        phone1.sendMessage("77777777");
+        phone1.sendMessage("800-800-800", "900-900-900");
+        phone2.sendMessage("100-100-100", "900-900-900");
+        phone3.sendMessage("700-700-700");
     }
 }
