@@ -13,11 +13,11 @@ public class Priamougolnik extends Figura{
     }
 
 
-    double perimetr(){
+    public double perimetr(){
         return (sideA + sideB)*2;
 }
 
-    double area(){
+    public double area(){
         return sideA * sideB;
 }
 }

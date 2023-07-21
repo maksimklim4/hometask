@@ -1,10 +1,10 @@
 package Task1;
 
 public abstract class Figura {
+// dwa metoda
+   public abstract double area();
 
-    double area;
-
-    double perimetr;
+    public abstract double perimetr();
 
 
 }

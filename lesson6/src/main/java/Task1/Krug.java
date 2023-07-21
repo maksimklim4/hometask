@@ -11,11 +11,11 @@ public class Krug extends Figura{
     }
 
 
-    double perimetr(){
+    public double perimetr(){
         return 2 * 3.14 * radius;
     }
 
-    double area(){
+    public double area(){
         return 3.14 * radius * radius;
     }
 }
