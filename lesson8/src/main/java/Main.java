@@ -10,7 +10,7 @@ public class Main {
         System.out.println(director1.getName() + " " + director1.getSurname() + " з/п: " + director1.calculateSalary() );
         //2.Назначить двух созданных сотрудников под управление директора. Распечатать сведения о директоре
         // (инфо о директоре и об его подчинении).
-        Employee [] workers = new Employee[]{
+        Employee [] subordinates = new Employee[]{
                 worker1, worker2};
 
         }

@@ -1,11 +1,12 @@
 public class Director extends Employee{
     private int baseSalary = 20000;
     private int numbersSubordinates;
+
     public Director(String name, String surname, int experience){
         super(name, surname, Position.DIRECTOR, experience);
     }
 //метод назначения
-    public void addSubordinates(Employe[] ) {
+    public void addSubordinates(Employe[] subordinates) {
 
         this.numbersSubordinates = numbersSubordinates;
     }
